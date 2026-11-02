@@ -1,0 +1,136 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-portland-or#service",
+      "name": "Website design in Portland, OR",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-portland-or",
+      "description": "Website designers for Portland, Oregon businesses. We design and build custom sites, brands and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Portland, Oregon",
+          "sameAs": "https://www.wikidata.org/wiki/Q6106"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Multnomah County, Oregon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Washington County, Oregon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Clark County, Washington"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Clackamas County, Oregon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Yamhill County, Oregon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Columbia County, Oregon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Skamania County, Washington"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Portland, OR businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Oregon",
+          "item": "https://www.lemurianstudios.com/services/web-design-oregon"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Portland, OR",
+          "item": "https://www.lemurianstudios.com/services/website-design-portland-or"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can my site cover customers in Vancouver, Washington?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clark County, Washington is part of the Portland metro, so we can name it in your service area, along with any licensing detail that differs across the river."
+          }
+        }
+      ]
+    }
+  ]
+}

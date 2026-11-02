@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://portland-or.lemurianstudios.com/sitemap.xml
